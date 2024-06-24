@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+ 
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;   /* Centraliza verticalmente */
+    width: 100%;        /* Altura da tela inteira */
+    flex-direction: column;
+    background-color: rgb(216, 176, 253);
+    
+}
+.Div-1, .Div-4{
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(236, 209, 209) ;
+    width: 400px;
+    margin: 10px;
+    border: 3px dashed black;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+.Div-1 p{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Div-2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(236, 209, 209) ;
+    width: 400px;
+    margin: 10px;
+    border: 3px dashed black;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.Div-2 p{
+    color: blue;
+    font-size: 16x;
+    font-weight: bold;
+}
+.Div-2:hover{
+    transition: 2s;
+    border: 10px double blueviolet;
+}
+
+.Div-3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(236, 209, 209) ;
+    width: 400px;
+    margin: 10px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 20px;
+    
+}
